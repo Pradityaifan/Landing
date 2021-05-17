@@ -14,103 +14,140 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="page-wrapper">
-      <header id="header">
-        <nav id="nav-bar">
-          <div class="logo">
-            <img id="header-img" src="https://www.freepnglogos.com/uploads/coffee-logo-png/logo-elements-coffee-beans-15.png" alt="logo coffe bean shop" />
+    <div class="container">
+      <section>
+        <header id="header">
+          <nav id="nav-bar">
+            <div class="logo">
+              <img id="header-img" src="https://www.freepnglogos.com/uploads/coffee-logo-png/logo-elements-coffee-beans-15.png" alt="logo coffe bean shop" >
             </div>
-          <ul>
-            </li>
-            <li><a class="nav-link" href="#features">Features</a></li>
-            <li><a class="nav-link" href="#work">Video</a></li>
-            <li><a class="nav-link" href="#product">Product</a></li>
-          </ul>
-        </nav>
-      </header>
-      <section id="home" class="home">
-        <h1>Menjual Biji Kopi Pilihan Dengan Kualitas Terbaik</h1>
-        <h2>Tertarik ?</h2>
-        <button id="submit"> Let's Talk </button>
+            <ul>
+              <li><a class="nav-link" href="#features">Features</a></li>
+              <li><a class="nav-link" href="#work">Video</a></li>
+              <li><a class="nav-link" href="#product">Product</a></li>
+            </ul>
+          </nav>
+        </header>
       </section>
-
-      <section id="features">
-        <div class="grid">
-          <div class="icon">
-            <img src="img/coffee.png" alt="Coffe-bean" />
-          </div>
-          <div class="desc">
-            <h2>Biji Kopi Premium</h2>
-            <p>Dipilih dengan penyaringan berkali kali untuk mendapatkan biji kopi yang berkualitas</p>
-          </div>
-        </div>
-
-        <div class="grid">
-          <div class="icon">
-            <i class="fas fa-truck"></i>
-          </div>
-          <div class="desc">
-            <h2>Pengiriman</h2>
-            <p>Pengiriman Cepat dengan Pilihan Ekspedisi Terlengkap</p>
-          </div>
-        </div>
-
-        <div class="grid">
-          <div class="icon">
-            <i class="fas fa-file-signature"></i>
-          </div>
-          <div class="desc">
-            <h2>Asuransi</h2>
-            <p>Mudah dalam proses retur barang apabila mendapatkan barang cacat atau tidak sesuai</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="work">
-        <h1>Video Coffee Bean</h1>
-        <iframe
-          id="video"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/51h76yjA3wQ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </section>
-
-      <section class="work" id="product">
-        <h1>Produk Yang Kami Jual</h1>
-        <div class="card-wrapper">
-          <div class="card">
-            <div class="overlay">
-              <span>Category</span>
-              <a href="#"><h1>Aceh Gayo</h1></a>
-              <h2>RP. 200.000,00</h2>
+  </div>
+  <div class="container">
+    <section id="home" class="jumbotron">
+      <h1 class="display-4">Coffe Bean Shop</h1>
+      <p class="lead">Menjual Biji Kopi Premium Dengan Kualitas High Yang Disortir Berulang kali Agar Mendapat Hasil Yang Berkualitas</p>
+      <a href="#kontak"><Button >Lets'Talk</Button></a>
+    </section>
+  </div>
+        <div class="container">
+          <h1 class="tek">Features</h1>
+          <section id="features" class="fitur">
+            <div class="grid">
+              <div class="icon">
+                <img src="img/coffee.png" alt="Coffe-bean" />
+              </div>
+              <div class="desc">
+                <h2>Biji Kopi Premium</h2>
+                <p>Dipilih dengan penyaringan berkali kali untuk mendapatkan biji kopi yang berkualitas</p>
+              </div>
             </div>
-            <img src="img/aceh.jpg" alt="" />
-          </div>
 
-          <div class="card">
-            <div class="overlay">
-              <span>Category</span>
-              <a href="#"><h1>Arabica Bali</h1></a>
-              <h2>RP. 250.000,00</h2>
+            <div class="grid">
+              <div class="icon">
+                <img src="img/truk.png" alt="pengiriman" />
+              </div>
+              <div class="desc">
+                <h2>Pengiriman</h2>
+                <p>Pengiriman Cepat dengan Pilihan Ekspedisi Terlengkap</p>
+              </div>
             </div>
-            <img src="img/bali.jpg" alt="" />
+            
+            <div class="grid">
+              <div class="icon">
+                <img src="img/retur.png" alt="retur" />
+              </div>
+              <div class="desc">
+                <h2>Asuransi</h2>
+                <p>Mudah dalam proses retur barang apabila mendapatkan barang cacat atau tidak sesuai</p>
+              </div>
+            </div>
           </div>
+          </section>
 
-          <div class="card">
-            <div class="overlay">
-              <span>Category</span>
-              <a href="#"><h1>Espresso Blend</h1></a>
-              <h2>RP. 500.000,00</h2>
-            </div>
-            <img src="img/espreso.jpg" alt="" />
+
+          <div>
+            <h1>Video Coffee Bean</h1>
+            <section id="work" class="videoo">
+              <iframe class="mobil"
+              id="video"
+              width="800"
+              height="400"
+              src="https://www.youtube.com/embed/51h76yjA3wQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              ></iframe>
+            </section>
           </div>
-        </div>
-      </section>
+            
+            <div class="container">
+              <section id="product" class="work">
+                <h1 class="produk">Produk Yang Kami Jual</h1>
+                <div class="card-wrapper">
+                  <div class="card">
+                    <div class="overlay">
+                      <span>Category</span>
+                      <a href="#"><h1>Aceh Gayo</h1></a>
+                      <h2>RP. 200.000,00</h2>
+                    </div>
+                    <img src="img/aceh.jpg" alt="" />
+                  </div>
+                  
+                  <div class="card">
+                    <div class="overlay">
+                      <span>Category</span>
+                      <a href="#"><h1>Arabica Bali</h1></a>
+                      <h2>RP. 250.000,00</h2>
+                    </div>
+                    <img src="img/bali.jpg" alt="" />
+                  </div>
+                  
+                  <div class="card">
+                    <div class="overlay">
+                      <span>Category</span>
+                      <a href="#"><h1>Espresso Blend</h1></a>
+                      <h2>RP. 500.000,00</h2>
+                    </div>
+                    <img src="img/espreso.jpg" alt="" />
+                  </div>
+                </div>
+              </section>
+            </div>
+      
+      <div class="container">
+        <section id="kontak" class="kontak">
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <h1 class="talk">Lets'Talk</h1>
+            <div class="form-group">
+              <label for="Nama"> Nama</label>
+              <input type="text" name="nama" id="nama" placeholder="Nama Anda"> 
+            </div>
+            
+            <div class="form-group">
+              <label for="email"> Email</label>
+                <input type="email" name="email" id="email" placeholder="Nama Anda"> 
+              </div>
+              
+              <div class="form-group">
+                <label for="telepon"> Nomor Telepon</label>
+                <input type="text" id="telepon" name="telepon" placeholder="Nomor Anda"> 
+              </div>
+              
+              <div class="form-group">
+                <input type="submit" id="submit">
+              </div>
+          </form>
+        </section>
+      </div>
 
       <section id="footer">
         <h2>Follow Us</h2>
